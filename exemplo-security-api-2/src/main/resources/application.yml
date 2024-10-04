@@ -1,0 +1,27 @@
+spring:
+  jpa:
+    database: POSTGRESQL
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/exemplo_security
+    password: Sen@c2023
+    username: postgres
+    driverClassName: org.postgresql.Driver
+  security:
+    token:
+      secret: segredo
+      expiration_time: 900
+  mail:
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: 'true'
+          auth: 'true'
+    host: smtp.gmail.com
+    username: roberto.fmedeiros62@gmail.com
+    password: "bbul jtmq otqv evgd"
+    port: '587'
+
