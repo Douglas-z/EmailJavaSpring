@@ -1,1 +1,1 @@
-Projeto com aplicaçao em JAVA SPRING de envio de e-mails via SMTP
+Projeto com aplicaçao utilizando Java Spring de envio de e-mails via servidor SMTP.
